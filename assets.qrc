@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../Assets/Map.png</file>
+        <file>../../Assets/Pe_Sym.png</file>
+        <file>../../Assets/Wa_Sym.png</file>
+        <file>../../Assets/Banafsh/Bahar.png</file>
+        <file>../../Assets/Banafsh/Matarsak.png</file>
+        <file>../../Assets/Banafsh/Parcham_Dar.png</file>
+        <file>../../Assets/Banafsh/Rish_Sefid.png</file>
+        <file>../../Assets/Banafsh/Shir_Zan.png</file>
+        <file>../../Assets/Banafsh/Tabl_Zan.png</file>
+        <file>../../Assets/Banafsh/Zemestan.png</file>
+        <file>../../images.png</file>
+        <file>../../Assets/Banafsh/Shah_Dokht.png</file>
+    </qresource>
+</RCC>
