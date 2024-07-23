@@ -1,6 +1,6 @@
 #ifndef INFORMATION_H
 #define INFORMATION_H
-#include"C:\Users\HP\Desktop\Programming\C++\Rakab\Rakab\Entity\Interface/Player.h"
+#include"C:\Users\HP\Desktop\Rakab\Entity\Interface/Player.h"
 #include <QWidget>
 //#include"C:\Users\HP\Desktop\Programming\C++\Rakab\Rakab\Entity\Interface/Player.h"
 #include<vector>

@@ -9,8 +9,8 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    ../C++/Rakab/Rakab/Entity/Declration/Card.cpp \
-    ../C++/Rakab/Rakab/Entity/Declration/Player.cpp \
+    ../../Rakab/Entity/Declration/Card.cpp \
+    ../../Rakab/Entity/Declration/Player.cpp \
     gameoutput.cpp \
     help.cpp \
     information.cpp \
@@ -18,8 +18,8 @@ SOURCES += \
     mainwindow.cpp
 
 HEADERS += \
-    ../C++/Rakab/Rakab/Entity/Interface/Card.h \
-    ../C++/Rakab/Rakab/Entity/Interface/Player.h \
+    ../../Rakab/Entity/Interface/Card.h \
+    ../../Rakab/Entity/Interface/Player.h \
     gameoutput.h \
     help.h \
     information.h \
