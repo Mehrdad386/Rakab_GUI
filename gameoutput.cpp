@@ -13,3 +13,5 @@ GameOutput::~GameOutput()
     delete ui;
     ui->Map->setScaledContents(500) ;
 }
+
+

@@ -36,7 +36,8 @@ Information::~Information()
     delete ui;
 }
 
-void Information::setInformation( std::vector<Player>& players){
+std::vector<Player> Information::setInformation(){
+    std::vector<Player> players ;
     int numberOfPlayers = ui->spinBox->value() ;
     players.resize(numberOfPlayers) ;
 
@@ -60,6 +61,7 @@ void Information::setInformation( std::vector<Player>& players){
             players.at(5).setAge(ui->Age6->text().toUInt());
         }
     }
+    return players ;
 }
 
 
@@ -90,6 +92,7 @@ void Information::on_spinBox_valueChanged(int arg1)
 
 void Information::on_playBtn_clicked()
 {
-
+    GameOutput* gameOutput = new GameOutput() ;
+    gameOutput->show() ;
 }
 

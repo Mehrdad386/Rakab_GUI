@@ -2,7 +2,7 @@
 #define INFORMATION_H
 #include"C:\Users\HP\Desktop\Rakab\Entity\Interface/Player.h"
 #include <QWidget>
-//#include"C:\Users\HP\Desktop\Programming\C++\Rakab\Rakab\Entity\Interface/Player.h"
+#include"gameoutput.h"
 #include<vector>
 namespace Ui {
 class Information;
@@ -16,7 +16,7 @@ public:
     explicit Information(QWidget *parent = nullptr);
     ~Information();
 
-    void setInformation( std::vector<Player>&) ;
+    std::vector<Player> setInformation() ;
 
 
 private slots:
