@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-//#include"C:\Users\HP\Desktop\Programming\C++\Rakab\Rakab\Entity\Interface/Game.h"
+#include"C:\Users\HP\Desktop\Programming\C++\Rakab\Rakab\Entity\Interface/Game.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -26,7 +26,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    //Game game ;
+    Game game ;
 
 };
 #endif // MAINWINDOW_H
